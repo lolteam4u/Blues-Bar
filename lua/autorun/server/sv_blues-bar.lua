@@ -196,7 +196,7 @@ function p:bb_Attach(e)
 		self:DrawViewModel(false , 2)
 
 		self.prevWep = self:GetActiveWeapon()
-		self:SetActiveWeapon("keys")
+		self:SelectWeapon("keys")
 
 		self.bb.isUsingBar = true
 		self.bb.attachedBar = e 
